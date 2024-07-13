@@ -4,7 +4,7 @@ This is the official repository for the paper [*PEZy-Miner: An artificial intell
 
 To use PEZy-Miner to mine any customized dataset for the top-ranked enzyme/plastic pairs, you will need everything in this repository. 
 
-## 1. Upload your data
+## 1. Prepare your data
 
 The experimental dataset used in the paper can be found in `/data/20231214_strong_labels.csv`. No need to change this unless you would like to train your own model on your own training data.
 
