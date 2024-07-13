@@ -16,7 +16,7 @@ TODO: Look up how to display a spreadsheet, and then add the first 5 lines of ou
 
 ## 2. Run the ProtBERT_MLP model or the ProtBERT_proto model
 
-### 2.1. Select the model, ProtBERT_MLP or ProtBERT_proto
+### 2.1. Select a model, ProtBERT_MLP or ProtBERT_proto
 
 In the `/code` directory, open the `test_protbert.py` script. In line 60, you will find
 
