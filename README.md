@@ -18,7 +18,7 @@ TODO: Look up how to display a spreadsheet, and then add the first 5 lines of ou
 
 ### 2.1. Select a model, ProtBERT_MLP or ProtBERT_proto
 
-In the `/code` directory, open the `test_protbert.py` script. In line 60, you will find
+In the `./code` directory, open the `test_protbert.py` script. In line 60, you will find
 
 ```
 parser.add_argument('-classifier', type=str, default='proto', help='classifier')
@@ -36,13 +36,13 @@ b. Repeat part a 5 times by changing the random seeds defined in line 32
 parser.add_argument('-seed', type=int, default=42, help='random seed')
 ```
 
-c. The 5 output files will be generated as `/code/prediction_results_test_ProtBERT_seedXXX.csv`.
+c. The 5 output files will be generated as `./code/prediction_results_test_ProtBERT_seedXXX.csv`.
 
 ## 3. Get your top list
 
-Once you obtained the output files, copy and paste them in the `/get top list/mlp/` or `/get top list/proto/` directory.
+Once you obtained the output files, copy and paste them in `./get top list/mlp/` or `./get top list/proto/`.
 
 Next, open the `result_analysis.ipynb` script, and go through the script to define your own variables, such as random seeds, classifier, top percentile, which are clearly marked in the beginning of every cell.
 
-After you run the .ipynb file, the top list will be generated as `result_analysis/toplist_XXX.csv`.
+After you run the .ipynb file, the top list will be generated as `./get top list/mlp/result_analysis/toplist_XXX.csv` or `./get top list/proto/result_analysis/toplist_XXX.csv`.
 
