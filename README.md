@@ -2,7 +2,7 @@
 
 This is the official repository for the paper [*PEZy-Miner: An artificial intelligence driven approach for the discovery of plastic-degrading enzyme candidates*](TODO: add the http link once the manuscript is published).
 
-To use PEZy-Miner to mine any customized dataset for the top-ranked enzyme/plastic pairs, you will need everything in this repository. 
+To use PEZy-Miner to mine any customized dataset for the top-ranked enzyme/plastic pairs, you will need everything in this repository, with detailed instruction below.
 
 ## 1. Prepare your data
 
