@@ -6,9 +6,9 @@ To use PEZy-Miner to mine any customized dataset for the top-ranked enzyme/plast
 
 ## 1. Prepare your data
 
-The experimental dataset used in the paper can be found in `/data/20231214_strong_labels.csv`. No need to change this unless you would like to train your own model on your own training data.
+The experimental dataset used in the paper can be found in `./data/20231214_strong_labels.csv`. No need to change this unless you would like to train your own model on your own training data.
 
-The prescreened homologous dataset used in the paper can be found in `/data/prescreen_hs_with_weak_label.csv`. To discover top-ranked enzyme/plastic pairs from your own dataset, replace this homologous dataset with your own dataset and **use the same filename**. Also, make sure your dataset is in the following format.
+The prescreened homologous dataset used in the paper can be found in `./data/prescreen_hs_with_weak_label.csv`. To discover top-ranked enzyme/plastic pairs from your own dataset, replace this homologous dataset with your own dataset and **use the same filename**. Also, make sure your dataset is in the following format.
 
 ```
 TODO: Look up how to display a spreadsheet, and then add the first 5 lines of our homologous dataset here.
